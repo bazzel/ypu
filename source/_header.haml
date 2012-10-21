@@ -1,0 +1,23 @@
+%header
+  %h1 YPU Consulting
+
+  %nav
+    %ul
+      %li= link_to 'Home', '/index.html'
+      %li= link_to 'About', '/about.html'
+      %li= link_to 'PU', '/pu.html'
+      %li= link_to 'Contact', '/contact.html'
+      %li= link_to 'Disclaimer', '/disclaimer.html'
+
+-#http://microformats.org/code/hcard/creator
+#hcard-Yvo-Trimbos.vcard
+  %span.fn Yvo Trimbos
+  .org YPU Consulting
+  = link_to 'www.ypuconsulting.com', 'www.ypuconsulting.com', :class => 'url'
+  = mail_to 'yvo@ypuconsulting.com', 'yvo@ypuconsulting.com', :class => 'email'
+  .adr
+    .street-address Bandeliersberg 25
+    %span.postal-code 4707 SG
+    %span.locality Roosendaal
+    %span.country-name The Netherlands
+  .tel +31 (0) 6 29496987
