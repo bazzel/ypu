@@ -5,7 +5,7 @@ description:
 
 # YPU Consulting services
 
-YPU Consulting offers companies in the polyurethane business help withR&D-related issues, through advising, informing, supporting, educatingand training. The company was founded by Yvo Trimbos, who has been working in several PU related industries/fields for >15 years. He gained knowledge and experience in developing, producing, testing and certifying of several PU products. Please, find more details in the [About](/about.html) section.
+YPU Consulting offers companies in the polyurethane business help with R&D-related issues, through advising, informing, supporting, educatingand training. The company was founded by Yvo Trimbos, who has been working in several PU related industries/fields for >15 years. He gained knowledge and experience in developing, producing, testing and certifying of several PU products. Please, find more details in the [About](/about.html) section.
 
 YPU Consulting offers service related to:
 
@@ -13,10 +13,8 @@ YPU Consulting offers service related to:
 + PU processing technology
 + Formulating (OCF*, 2-component PU systems and rigid PUR/PIR foam)
 + Testing
-+ General laboratory management for R&D (Research and Development) and
-+ QA/QC  (Quality Assurance / Quality Control)
-+ Sourcing of raw materials (pMDI, polyols, catalysts, stabilizers,
-+ plasticizers, flame retardants, colorants, et cetera)
++ General laboratory management for R&D (Research and Development) and QA/QC  (Quality Assurance / Quality Control)
++ Sourcing of raw materials (pMDI, polyols, catalysts, stabilizers, plasticizers, flame retardants, colorants, et cetera)
 + Legislation (national and international)
 + Certification
 + Process improvement
