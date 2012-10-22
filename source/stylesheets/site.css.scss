@@ -1,10 +1,5 @@
-/**
+@import 'compass/reset';
 
-//HTML5 Boilerplate + Normalize
-*= require "_vendor/normalize.css"
-*= require "_vendor/html5bp.css"
+@import 'layout';
+@import 'modules';
 
-//Grid
-*= require "_layout/grid"
-
-*/

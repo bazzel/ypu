@@ -1,0 +1,13 @@
+@import "compass/typography/lists/inline-block-list";
+nav {
+  ul {
+    @include inline-block-list;
+    li {
+      width: 19.6%;
+      a {
+        display: block;
+        background: #eee;
+      }
+    }
+  }
+}
