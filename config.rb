@@ -8,6 +8,9 @@ activate :livereload
 # Compass
 ###
 
+# Sassy Modular Scale
+require 'modular-scale'
+
 # Susy grids in Compass
 # First: gem install compass-susy-plugin
 # require 'susy'

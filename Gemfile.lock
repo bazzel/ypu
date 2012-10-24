@@ -80,6 +80,9 @@ GEM
       sprockets-sass (~> 0.8.0)
     mini_magick (3.4)
       subexec (~> 0.2.1)
+    modular-scale (1.0.2)
+      compass (>= 0.11.5)
+      sassy-math (>= 1.2)
     multi_json (1.3.6)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
@@ -102,6 +105,8 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (2.1.1)
     sass (3.2.1)
+    sassy-math (1.2)
+      compass (~> 0.11)
     sinatra (1.3.3)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
@@ -136,5 +141,6 @@ DEPENDENCIES
   middleman-deploy
   middleman-favicon-maker
   middleman-livereload
+  modular-scale
   redcarpet
   susy (= 1.0)

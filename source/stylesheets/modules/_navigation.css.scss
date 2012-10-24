@@ -3,10 +3,10 @@ nav {
   ul {
     @include inline-block-list;
     li {
-      width: 19.6%;
+      width: 19%;
       a {
         display: block;
-        background: #eee;
+        /*background: #eee;*/
       }
     }
   }
