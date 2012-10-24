@@ -1,4 +1,9 @@
-# YPU (Why PolyUrethane)?
+---
+title: YPU
+description:
+---
+
+##YPU (Why PolyUrethane)?
 
 Because polyurethane (chemistry) is fascinating and the use of all kinds of polyurethanes is extremely versatile. They can be found everywhere in our daily life and give us comfort, strength and energy saving in a cheap, safe, durable and environmentally responsible way.
 

@@ -1,4 +1,9 @@
-#Company details
+---
+title: Contact
+description:
+---
+
+##Company details
 
 Owner/director: Yvo F.H. Trimbos
 

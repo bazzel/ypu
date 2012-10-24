@@ -1,4 +1,9 @@
-# Biography
+---
+title: About
+description:
+---
+
+##Biography
 
 <div class='bio-image'>![Yvo Trimbos](/images/yvo.jpg)</div>
 My name is Yvo Trimbos. As a school boy, I found out quite quickly, thatI was mostly interested in technical courses like mathematics, physics and chemistry. After having done VWO (pre-university education), I started to study Chemical Engineering at the HTS in Breda (higher vocational education). Having finished this study, I continued at the Technical University in Eindhoven, where I received my Master's diploma as Chemical Engineer in 1995 (MSChE).
