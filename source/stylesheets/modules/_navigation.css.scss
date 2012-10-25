@@ -1,12 +1,32 @@
-@import "compass/typography/lists/inline-block-list";
+@import 'compass/typography/lists/inline-block-list';
+@import 'compass/typography/vertical_rhythm';
+@import 'compass/typography/links/unstyled-link';
+
 nav {
+  @include margin-leader(3);
   ul {
     @include inline-block-list;
     li {
-      width: 19%;
+      width: 24%;
+      border-right-width: 2px;
+      &:last-child {
+        border-right-width: 0;
+      }
       a {
+        @include unstyled-link;
+        text-align: center;
         display: block;
-        /*background: #eee;*/
+        font-family: $sans-serif-font-family;
+        background: #eee;
+        @include rhythm(0,.5,.5,0);
+        &:hover {
+          $color: #eee;
+          background: $color;
+          color: invert($color);
+          @include leading-border(5px, .5);
+          border-top-color: lighten($color, 20%);
+
+        }
       }
     }
   }

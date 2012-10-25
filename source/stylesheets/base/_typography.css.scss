@@ -15,6 +15,10 @@ body {
   font-family: $serif-font-family;
 }
 
+h1, h2, h3 {
+  font-family: $sans-serif-font-family;
+}
+
 p {
   @include margin-trailer;
 }
@@ -34,6 +38,3 @@ h3 {
   @include adjust-font-size-to(ms(1));
 }
 
-h1, h2, h3 {
-  font-family: $sans-serif-font-family;
-}

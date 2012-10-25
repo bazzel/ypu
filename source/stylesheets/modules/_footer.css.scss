@@ -1,4 +1,14 @@
+@import 'compass/typography/vertical_rhythm';
+
 footer {
-  /*background: #eee;*/
+  background: #999;
   text-align: center;
+  @include rhythm(0,0,2,0);
+  .vcard {
+    @include rhythm(2,2,2,2);
+    background: #ccc;
+    .fn, .url {
+      display: none;
+    }
+  }
 }
