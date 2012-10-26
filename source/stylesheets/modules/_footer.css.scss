@@ -1,14 +1,26 @@
 @import 'compass/typography/vertical_rhythm';
 
 footer {
+  font-family: $sans-serif-font-family;
   background: #999;
   text-align: center;
-  @include rhythm(0,0,2,0);
+  @include adjust-font-size-to(ms(-1));
+  @include rhythm(0, 0, 1, 0, ms(-1));
   .vcard {
-    @include rhythm(2,2,2,2);
+    @include rhythm(2, 2, 2, 1, ms(-1));
     background: #ccc;
     .fn, .url {
       display: none;
     }
+    .org, .tel {
+      @include adjust-font-size-to(ms(1));
+      @include rhythm(0,.5,.5,0, ms(1));
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+
+  }
+  .copyright, .disclaimer {
+    display: inline-block;
   }
 }
