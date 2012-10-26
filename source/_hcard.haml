@@ -1,13 +1,15 @@
--#http://microformats.org/code/hcard/creator
-#hcard-Yvo-Trimbos.vcard
-  %span.fn Yvo Trimbos
-  .org YPU Consulting
-  = link_to 'www.ypuconsulting.com', 'www.ypuconsulting.com', :class => 'url'
-  = mail_to 'yvo@ypuconsulting.com', 'yvo@ypuconsulting.com', :class => 'email'
-  .adr
-    .street-address Bandeliersberg 25
-    %span.postal-code 4707 SG
-    %span.locality Roosendaal
-    %span.country-name The Netherlands
-  .tel +31 (0) 6 29496987
-
+%h4 [Yvo's slogan]
+%p
+  Call us on
+  %span.tel +31 6 29 49 69 87
+  or send an
+  = mail_to 'yvo@ypuconsulting.com', 'email', :class => 'email'
+%ul.social
+  %li
+    %a{ href: 'http://nl.linkedin.com/in/yvotrimbos', target: '_blank', title: 'View my LinkedIn profile' }>
+      %i.icon-linkedin-sign>
+      %span Linked in
+  %li
+    %a{ href: 'mailto: yvo@ypuconsulting.com', title: 'Send an email' }
+      %i.icon-envelope-alt
+      %span E-mail
