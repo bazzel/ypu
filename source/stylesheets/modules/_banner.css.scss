@@ -2,7 +2,8 @@
 
 .banner {
   @include rhythm(0,1,1,0);
-  background: grey;
+  background: $base_lighter_color;
+  color: $base_darkest_color;
   text-align: center;
   header {
     h1 {
