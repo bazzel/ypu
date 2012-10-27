@@ -20,15 +20,14 @@ ul.social {
       height: $size;
       line-height: $size;
       display: inline-block;
-      background: $base_darkest_color;
-      color: $base_lightest_color;
+      background: #ccc;
+      color: #111;
       span {
         display: none;
       }
       &:hover {
-        color: $base_darkest_color;
-        /*color: white;*/
-        background: $base_lightest_color;
+        color: #ccc;
+        background: #666;
       }
     }
   }

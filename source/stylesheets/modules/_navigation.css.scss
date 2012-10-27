@@ -19,17 +19,13 @@ nav {
         text-align: center;
         display: block;
         font-family: $sans-serif-font-family;
-        color: $base_lightest_color;
-        background: $base_darkest_color;
+        color: #ccc;
+        background: #111;
         @include rhythm(0,.5,.5,0);
         &:visited {
-          color: $base_lightest_color;
         }
         &:hover {
-          background: $base_lightest_color;
-          color: $base_darkest_color;
           @include leading-border(5px, .5);
-          border-top-color: $base_darkest_color;
           text-decoration: none;
         }
       }

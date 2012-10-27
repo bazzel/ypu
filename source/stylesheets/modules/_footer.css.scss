@@ -2,16 +2,14 @@
 
 footer {
   font-family: $sans-serif-font-family;
-  color: $base_lightest_color;
-  background: $base_darker_color;
+  color: #ccc;
+  background: #111;
   text-align: center;
   @include margin-leader(2);
   a {
     &:link, &:visited, &:hover, &:active {
-      color: $base_lightest_color;
       font-weight: bold;
     }
-
   }
   h4 {
     @include adjust-font-size-to(ms(2));
@@ -27,8 +25,8 @@ footer {
   }
   small {
     display: block;
-    color: $base_lightest_color;
-    background: $base_darkest_color;
+    color: #111;
+    background: #ccc;
     @include adjust-font-size-to(ms(-1));
     @include rhythm(0,2,2,0,ms(-1));
     .copyright, .disclaimer {

@@ -1,0 +1,71 @@
+// Typography
+body {
+  color: $base_darkest_color;
+}
+
+a {
+  &:link, &:visited {
+    color: $base_color;
+  }
+  &:hover {
+    color: $base_darker_color;
+  }
+}
+
+::selection, ::-moz-selection {
+  color: $base_lightest_color;
+  background: $base_darkest_color;
+}
+
+// Modules
+.banner {
+  background: $base_lighter_color;
+  color: $base_darkest_color;
+}
+
+footer {
+  color: $base_lightest_color;
+  background: $base_darker_color;
+  a {
+    &:link, &:visited, &:hover, &:active {
+      color: $base_lightest_color;
+    }
+  }
+  small {
+    color: $base_lightest_color;
+    background: $base_darkest_color;
+  }
+}
+
+nav {
+  ul {
+    li {
+      a {
+        color: $base_lightest_color;
+        background: $base_darkest_color;
+        &:visited {
+          color: $base_lightest_color;
+        }
+        &:hover {
+          background: $base_lightest_color;
+          color: $base_darkest_color;
+          border-top-color: $base_darkest_color;
+        }
+      }
+    }
+  }
+}
+
+ul.social {
+  li {
+    a {
+      background: $base_darkest_color;
+      color: $base_lightest_color;
+      &:hover {
+        color: $base_darkest_color;
+        background: $base_lightest_color;
+      }
+    }
+  }
+}
+
