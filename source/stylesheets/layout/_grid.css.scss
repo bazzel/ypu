@@ -5,7 +5,7 @@ $column-width   : 4em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
-$break          : 12;
+$break          : 12 lt-ie9;
 
 
 .main, header {
