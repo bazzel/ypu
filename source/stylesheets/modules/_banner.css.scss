@@ -14,7 +14,6 @@
     h1 {
       @include margin-leader(3, ms(7));;
       @include adjust-font-size-to(ms(7));
-      font-weight: bold;
     }
     h2 {
       margin-top: 0;
