@@ -1,8 +1,13 @@
 @import 'compass/typography/vertical_rhythm';
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+
 
 .banner {
   @include rhythm(0,1,1,0);
-  background: #ccc;
+  /*background: #ccc;*/
+  @include single-box-shadow(rgba(0, 0, 0, .7), 0, 1px, 10px);
   color: #111;
   text-align: center;
   header {

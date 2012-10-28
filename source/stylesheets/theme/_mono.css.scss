@@ -1,3 +1,6 @@
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+
 // Typography
 body {
   color: $base_darkest_color;
@@ -20,7 +23,19 @@ a {
 // Modules
 .banner {
   background: $base_lighter_color;
+  @include background-image(linear-gradient(rgba(black, 0), rgba(black, .4)));
   color: $base_darkest_color;
+  @include single-box-shadow(rgba(0, 0, 0, .7), 0, 1px, 10px);
+  header {
+    h1 {
+      color: white;
+      @include single-text-shadow(1px, 1px, 2px, false, rgba($base_darkest_color, .9));
+    }
+    h2 {
+      color: $base_lightest_color;
+      @include single-text-shadow(1px, 1px, 1px, false, rgba($base_darkest_color, .9));
+    }
+  }
 }
 
 footer {
